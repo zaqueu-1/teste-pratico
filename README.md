@@ -1,5 +1,3 @@
-<img src="https://github.com/zaqueu-1/portfolio/blob/main/github/logo.png" alt="logo">
-
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)!
 
 > Projeto desenvolvido como desafio técnico para uma empresa. O desafio consistia de consumir 3 APIs do jsonplaceholder e criar uma interface que exibisse posts, comentários, usuários e detalhes dos usuários.
