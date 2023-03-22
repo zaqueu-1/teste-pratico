@@ -5,7 +5,6 @@ import './post.css'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import Navbar from '../../components/Navbar/Navbar'
-import { AiOutlineLike, AiOutlineDislike } from 'react-icons/ai'
 
 
 function Post() {
