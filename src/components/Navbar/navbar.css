@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: rgb(228, 228, 228);
+    height: 4rem;
+}
+
+.navbar a {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #484848;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar span {
+    color: rgb(168, 168, 234);
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+}
+
+.pages a {
+    text-decoration: none;
+    color: #393939;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0 1rem;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.pages a:hover {
+    color: #484848;
+}
