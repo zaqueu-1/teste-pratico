@@ -3,15 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     width: 100%;
-    background: #f5f5f5;
-}
-
-.title {
-    font-size: 2rem;
-    margin: 2rem 0 1rem 0;
-    color: #484848;
 }
 
 .posts-container {
@@ -19,15 +11,13 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 2rem 0 auto;
     max-width: 1200px;
     padding: 0 1rem;
 }
 
 .post-card {
-    background: #fff;
     border-radius: 12px;
-    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
     margin: .5rem 1rem;
     height: 280px;
     width: 310px;
@@ -35,16 +25,22 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    background: #8687c7;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
 }
 
 .post-card h2 {
     font-size: 1.5rem;
+    color: white;
     margin-bottom: 10px;
 }
 
 .post-card p {
     font-size: 1rem;
     margin-bottom: .5rem;
+    color: whitesmoke;
 }
 
 .post-card span {
@@ -54,16 +50,15 @@
     right: 0;
     margin: 0 1.5rem 1.2rem 0;
     cursor: pointer;
-    transition: all 0.3s;
-    color: #000;
-    background-color: rgb(228, 228, 228);
+    transition: all 0.4s;
+    color: #51516e;
+    background-color: #cbcaff;
     padding: .4rem .5rem;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .post-card span:hover {
-    background-color: rgb(52, 51, 51);
-    color: #ffffff;
+    transform: translateX(5px);
 }
 
 .pagination {
@@ -74,10 +69,26 @@
 }
 
 .pagination button {
-    background-color: rgb(228, 228, 228);
-    border: none;
     border-radius: 10px;
     padding: 0.5rem 1rem;
     margin: 0 .2rem;
     cursor: pointer;
+    border: none;
+    color: #ffffff;
+    background-color: #8687c7;
+}
+
+.post-skeleton {
+    border-radius: 12px;
+    margin: .5rem 1rem;
+    height: 280px;
+    width: 310px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: #8687c7;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
 }

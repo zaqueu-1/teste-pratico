@@ -1,15 +1,23 @@
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)!
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
 > Projeto desenvolvido como desafio técnico para uma empresa. O desafio consistia de consumir 3 APIs do jsonplaceholder e criar uma interface que exibisse posts, comentários, usuários e detalhes dos usuários.
 
-> Para esse desafio, utilizei ReactJS e as bibliotecas axios (requisições), framer-motion (transições e efeitos visuais) e react-router (rotas e sistema de páginas).
+Para esse desafio, utilizei ReactJS e as bibliotecas: 
+
+- axios (requisições); 
+- framer-motion (transições e efeitos visuais); 
+- react-router (rotas e sistema de páginas); 
+- react-icons (ícones);
+- react-loading-skeleton (esqueleto de carregamento).
+
+Foi bastante interessante usar a lib react-loading-skeleton. Eu nunca havia utilizado antes, porém, lendo a documentação, consegui fazer todo o esqueleto de carregamento em pouquíssimo tempo. No mais, não senti dificuldades em realizar o desafio e de quebra ainda me diverti bastante com a estilização para tentar tornar algo simples e cru (vindo do jsonplaceholder) em uma interface agradável e atraente.
 
 ## 🛠️ Ajustes e melhorias
 Além do pedido no desafio, acrescentei:
 
-- [V] Sistema de busca de usuários;
-- [V] Paginação dos posts;
-- [ ] Dark Mode;
+- [ ] Sistema de busca de usuários;
+- [ ] Paginação dos posts;
+- [ ] Esqueleto de carregamento nos itens;
 
 ## 🚀 Deploy
 

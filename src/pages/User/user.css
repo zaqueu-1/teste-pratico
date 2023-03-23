@@ -10,9 +10,14 @@
     width: 100%;
 }
 
+.user-details p {
+    font-size: 1.2rem;
+    color: #e3e1f8;
+}
+
 .user-details span {
-    font-size: 1rem;
-    color: rgb(116, 116, 116);
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
 }
 
 .personal-data, .company-data {
@@ -24,8 +29,9 @@
     width: 100%;
     max-width: 310px;
     min-width: 310px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    background: #8687c7;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
     padding: .5rem;
     border-radius: 8px;
 }
@@ -37,5 +43,21 @@
 .personal-data h2, .company-data h2 {
     font-size: 1.8rem;
     margin-bottom: .5rem;
-    color: rgb(168, 168, 234);
+    color: rgb(255, 255, 255);
+}
+
+.user-skeleton {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 1rem;
+    width: 100%;
+    max-width: 310px;
+    min-width: 310px;
+    background: #8687c7;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    padding: .5rem;
+    border-radius: 8px;
 }
