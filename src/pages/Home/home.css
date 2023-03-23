@@ -78,6 +78,11 @@
     background-color: #8687c7;
 }
 
+.pagination button:disabled {
+    background-color: #8687c767;
+    cursor: not-allowed;
+}
+
 .post-skeleton {
     border-radius: 12px;
     margin: .5rem 1rem;
