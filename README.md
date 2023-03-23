@@ -10,7 +10,7 @@ Para esse desafio, utilizei ReactJS e as bibliotecas:
 - react-icons (ícones);
 - react-loading-skeleton (esqueleto de carregamento).
 
-Foi bastante interessante usar a lib react-loading-skeleton. Eu nunca havia utilizado antes, porém, lendo a documentação, consegui fazer todo o esqueleto de carregamento em pouquíssimo tempo. No mais, não senti dificuldades em realizar o desafio e de quebra ainda me diverti bastante com a estilização para tentar tornar algo simples e cru (vindo do jsonplaceholder) em uma interface agradável e atraente.
+Foi bastante interessante usar a lib react-loading-skeleton. Senti a necessidade após alguns testes em redes mais lentas, e, lendo a documentação, consegui fazer todo o esqueleto de carregamento em pouquíssimo tempo. No mais, não senti dificuldades em realizar o desafio e de quebra ainda me diverti bastante com a estilização para tentar tornar algo tão simples e cru (vindo do jsonplaceholder) em uma interface agradável e atraente.
 
 ## 🛠️ Ajustes e melhorias
 Além do pedido no desafio, acrescentei:
@@ -18,8 +18,10 @@ Além do pedido no desafio, acrescentei:
 - [ ] Sistema de busca de usuários;
 - [ ] Paginação dos posts;
 - [ ] Esqueleto de carregamento nos itens;
+- [ ] Navbar lateral para navegação mobile;
 
 ## 🚀 Deploy
+https://teste-pratico-orcin.vercel.app
 
 
 ## 🖼️ Demonstração
