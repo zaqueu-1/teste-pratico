@@ -10,7 +10,9 @@ Para esse desafio, utilizei ReactJS e as bibliotecas:
 - react-icons (ícones);
 - react-loading-skeleton (esqueleto de carregamento).
 
-Foi bastante interessante usar a lib react-loading-skeleton. Senti a necessidade após alguns testes em redes mais lentas, e, lendo a documentação, consegui fazer todo o esqueleto de carregamento em pouquíssimo tempo. No mais, não senti dificuldades em realizar o desafio e de quebra ainda me diverti bastante com a estilização para tentar tornar algo tão simples e cru (vindo do jsonplaceholder) em uma interface agradável e atraente.
+Senti a necessidade de utilizar a lib react-loading-skeleton após alguns testes em redes mais lentas, e, lendo a documentação, foi possível fazer todo o esqueleto de carregamento em pouquíssimo tempo. 
+
+No mais, não senti dificuldades em realizar o desafio e pude focar meu tempo em tornar a interface o mais agradável e atraente possível, mesmo com as limitações do jsonplaceholder.
 
 ## 🛠️ Ajustes e melhorias
 Além do pedido no desafio, acrescentei:
@@ -29,6 +31,15 @@ https://teste-pratico-orcin.vercel.app
 ![demo](https://github.com/zaqueu-1/teste-pratico/blob/main/github/02.png)
 ![demo](https://github.com/zaqueu-1/teste-pratico/blob/main/github/03.png)
 ![demo](https://github.com/zaqueu-1/teste-pratico/blob/main/github/04.png)
+
+## 💻 Instalação
+Para instalar o projeto em sua máquina local, siga os seguintes passos:
+
+1. Faça o download ou clone o repositório em sua máquina local.
+2. Abra um terminal e navegue até o diretório do projeto.
+3. Execute o comando `npm install` para instalar as dependências do projeto.
+4. Execute o comando `npm start` para iniciar a aplicação.
+5. Abra o seu navegador e acesse o endereço `http://localhost:3000` para visualizar a aplicação.
 
 ## ✍️ Sobre o autor
 Desenvolvedor front-end, 27 anos, Rio de Janeiro/RJ
